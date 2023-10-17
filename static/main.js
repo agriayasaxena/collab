@@ -54,9 +54,9 @@ $(function () {
     // Write the code here
     function SettingSyncData(){
     syncStream.publishMessage({ 
+            textarea_color:background_color,
+            textarea_value:text
             
-            textarea_value:text,
-            textarea_color:background_color
         });
     }
     // Write the code here
